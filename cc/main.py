@@ -1,6 +1,6 @@
-from cc.ca_sym import construction_algorithm_symmetry
-from cc.eva import EvA
-from cc.ga import ga_cc
+from .ca_sym import construction_algorithm_symmetry
+from .eva import EvA
+from .ga import ga_cc
 import numpy as np
 
 # time test

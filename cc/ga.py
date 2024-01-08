@@ -1,7 +1,7 @@
 import datetime
 from random import randint
 import numpy as np
-from cc.eva import EvA
+from .eva import EvA
 
 import timy
 import unittest
