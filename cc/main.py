@@ -27,9 +27,3 @@ def cc_main_flow(input_list, square_array = True, orientation = "ver", num_dummy
         return ga_cc(ouput_from_ca.flatten(), ouput_from_ca.shape)
     else:
         return ouput_from_ca
-
-# output = cc_main_flow(cc_main_flow([1,2,4,8,16]))
-print(cc_main_flow([9,9], row_numbers = 3))
-
-#TODO: bug
-#print(cc_main_flow([8,8], row_numbers = 2))
