@@ -71,10 +71,10 @@ def ga_cc(target, shape):
     bestFitness = EvA(np.array(target), shape)
 
     # print head for the
-    print("Array \t\t\t\t Offset \t time \t\t Number of Generations")
+    #print("Array \t\t\t\t Offset \t time \t\t Number of Generations")
 
     # display the first result
-    display(bestparent)
+    #display(bestparent)
 
     # set up number of generations
     numberofgenerations = 0
@@ -91,7 +91,7 @@ def ga_cc(target, shape):
 
         if bestFitness <= childFitness:
             continue
-        display(child)
+        #display(child)
         if childFitness < wanted_tmoc:
             break
         bestFitness = childFitness
